@@ -1,0 +1,17 @@
+{
+  "name": "nextjs-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run next-dev\" \"npm run fastapi-dev\"",
+    "next-dev": "next dev",
+    "fastapi-dev": "uvicorn src.python.index:app --reload"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
