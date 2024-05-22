@@ -1,6 +1,12 @@
+# Nodeのモジュール
 node_modules
+
+# ビルドディレクトリ
 dist
-.build
-.dockerignore
-Dockerfile
-docker-compose.yml
+build
+
+# Docker関連ファイル
+#.dockerignore
+
+# その他のファイル
+.DS_Store
